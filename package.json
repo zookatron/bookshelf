@@ -58,11 +58,14 @@
     "prettier": "^1.18.2",
     "sinon": "^8.1.1",
     "sinon-chai": "^3.3.0",
-    "sqlite3": "^4.1.1",
+    "sqlite3": "^5.1.6",
     "uuid": "^3.3.3"
   },
   "peerDependencies": {
     "knex": ">=0.15.0 <0.22.0"
+  },
+  "overrides": {
+    "sqlite3": "^5.1.6"
   },
   "author": {
     "name": "Tim Griesser",
